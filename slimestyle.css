@@ -1,0 +1,73 @@
+body{
+    height: 100%;
+    background-color: #1ce500;
+    font-family: 'Silkscreen', cursive;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+}
+button{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+}
+.title{
+    color: white;
+    font-size: 1.5rem;
+
+}
+.bottomButton{
+    height: 56px;
+}
+.text{
+    text-align: right;
+    font-size: 3rem; 
+    width: 272px;
+}
+
+#calculatorBody{
+    position: relative;
+    width: 338px;
+    grid-column-start: 2;
+    justify-self: center;
+
+}
+#smallSlimegif{
+    grid-column-start: 3;
+
+}
+#tela{
+    position: absolute;
+    display: grid;
+    align-content: center;
+    top: 120px;
+    left: 34px;
+    width: 272px;
+    height: 72px;
+    
+}
+#teclado{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 64px 64px 64px 56px;
+    grid-template-rows:  64px 64px 64px 64px;
+    gap: 8px;
+    top: 207px;
+    left: 34px;
+
+}
+
+#calculatorBody + button{
+    width: 160px;
+    height: 160px;
+}
+
+#calculatorBody button:hover{
+    background-color: white;
+    opacity: 35%;
+}
+
